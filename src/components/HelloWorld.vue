@@ -4,13 +4,14 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const mutiply = ref(10)
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button type="button" @click="count++">count is {{ 10*count }}</button>
+    <button type="button" @click="count++">count is {{ mutiply*count }}</button>
     <p>
       Edito
       <code>components/HelloWorld.vue</code> to test HMR
