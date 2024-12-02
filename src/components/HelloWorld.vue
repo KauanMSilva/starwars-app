@@ -28,6 +28,8 @@ botaoCorajoso.addEventListener('click', function() {
 <template>
   <h1>{{ msg }}</h1>
 
+  <button>...</button>
+
   <div class="card">
     <button type="button" @click="count++">K&C.Tech {{ mutiply*count }}</button>
     <p>
